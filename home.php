@@ -1,12 +1,4 @@
 
-<?php 
-
-    echo $_POST["username"];
-    echo $_POST["password"];
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,14 +10,33 @@
     <h1>Welcome to Pizza Market</h1>
 
     <form action="home.php" method="POST">
-        <label for="">Username: </label>
-        <input type="text" name="username">
-        <label for="">Password:</label>
-        <input type="text" name="password">
-
-        <input type="submit" value="Log In">
+        <label for="">Quantity: </label>
+        <input type="number" name="quantity">
+        
+        <input type="submit" value="Place Order">
     </form>
     
 </body>
 </html>
+
+
+<?php 
+
+    // php code
+
+    $item = "pizza";
+    $price = 5.99;
+    $quantity = $_POST["quantity"];
+    $total = null;
+
+    $total = $price * $quantity;
+
+    echo "You have orderd {$quantity} {$item}s <br>";
+    echo "Your total price is \${$total}";
+
+    
+    
+
+?>
+
 

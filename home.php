@@ -10,6 +10,13 @@
     <h1>Welcome to Pizza Market</h1>
 
     <form action="home.php" method="POST">
+
+        <label for="">Name: </label>
+        <input type="text" name="customer_name" id="">
+
+        <label for="">Address: </label>
+        <input type="text" name="customer_address" id="">
+
         <label for="">Quantity: </label>
         <input type="number" name="quantity">
         
@@ -23,20 +30,24 @@
 <?php 
 
     // php code
+    // bro code tutorial until logical operator
 
     $item = "pizza";
     $price = 5.99;
     $quantity = $_POST["quantity"];
     $total = null;
+    $customer_name = "";
+    $customer_address = "";
+
 
     $total = $price * $quantity;
 
-    echo "You have orderd {$quantity} {$item}s <br>";
+    
+    echo "Name: {$customer_name}";
+    echo "Address: {$customer_address}";
+
+    echo "{$customer_name} have orderd {$quantity} {$item}s <br>";
     echo "Your total price is \${$total}";
-
-    
-    
-
 ?>
 
 

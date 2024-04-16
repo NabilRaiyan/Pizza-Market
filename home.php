@@ -36,15 +36,15 @@
     $price = 5.99;
     $quantity = $_POST["quantity"];
     $total = null;
-    $customer_name = "";
-    $customer_address = "";
+    $customer_name = $_POST["customer_name"];
+    $customer_address = $_POST["customer_address"];
 
 
     $total = $price * $quantity;
 
     
-    echo "Name: {$customer_name}";
-    echo "Address: {$customer_address}";
+    echo "Name: {$customer_name} <br>";
+    echo "Address: {$customer_address} <br>";
 
     echo "{$customer_name} have orderd {$quantity} {$item}s <br>";
     echo "Your total price is \${$total}";

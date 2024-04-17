@@ -54,6 +54,18 @@
     foreach ( $fruits as $fruit){
         echo $fruit . "<br>";
     }
+
+
+    // associative array 
+
+    $capitals = array("USA"=>"Washinton D.C.", 
+                      "Bangladesh"=>"Dhaka", 
+                      "Japan"=>"Kyoto", 
+                      "UK"=>"England");
+    
+    foreach ($capitals as $key => $value){
+        echo $key . " = " . $value . "<br>";
+    }
 ?>
 
 

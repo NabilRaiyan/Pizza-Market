@@ -47,7 +47,13 @@
     echo "Address: {$customer_address} <br>";
 
     echo "{$customer_name} have orderd {$quantity} {$item}s <br>";
-    echo "Your total price is \${$total}";
+    echo "Your total price is \${$total}" . "<br>";
+
+    $fruits = array("banana", "apple", "peach", "grape");
+
+    foreach ( $fruits as $fruit){
+        echo $fruit . "<br>";
+    }
 ?>
 
 

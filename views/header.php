@@ -4,6 +4,9 @@
     <title>Pizza Market</title>
     <link rel="stylesheet" href="../styles/styles.css">
 
+    <!-- animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

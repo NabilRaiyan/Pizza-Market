@@ -9,7 +9,7 @@
 
     <!-- left upper section  -->
 
-    <div class="left-upper-section">
+    <div class="left-upper-section" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         <h1 class="upper-title">
             Good <span class="title-word-color-black">Food</span> <br>
             <span class="title-word-color-black">& Good</span> <br> Moments
@@ -28,7 +28,7 @@
     </div>
 
     <!-- right upper setion -->
-    <div class="right-upper-section">
+    <div class="right-upper-section" data-aos="fade-up" data-aos-duration="2000">
         <img class="pizza-img-1" src="../images/pizza-circle.png" alt="" srcset="">
         <img class="pizza-img-2" src="../images/pizza-circle-2.png" alt="" srcset="">
         <img class="pizza-img-3" src="../images/pizza-circle-2.png" alt="" srcset="">
@@ -39,7 +39,7 @@
 
 
 <!-- middle section -->
-<div class="middle-section">
+<div class="middle-section" data-aos="fade-up" data-aos-duration="1000">
     <h4 class="speciality-sub-title">Our Service</h4>
     <h1 class="middle-sec-title">Why Choose Us?</h1>
     <p class="middle-section-description">
@@ -48,7 +48,7 @@
     </p>
 
     <div class="speciality-list">
-        <div class="speciality-item">
+        <div class="speciality-item" data-aos="fade-right" data-aos-duration="1000">
             <i class="speciality-icon fa-4x fa-solid fa-kitchen-set"></i>
             <h2 class="speciality-title">Best Chef</h2>
             <p class="speciality-description">
@@ -57,7 +57,7 @@
                 Eligendi!
             </p>
         </div>
-        <div class="speciality-item middle-item">
+        <div class="speciality-item middle-item" data-aos="fade-down" data-aos-duration="1000">
             <i class="speciality-icon fa-4x fa-solid fa-pizza-slice"></i>
             <h2 class="speciality-title">Fresh food</h2>
             <p class="speciality-description">
@@ -66,7 +66,7 @@
                 Eligendi!
             </p>
         </div>
-        <div class="speciality-item">
+        <div class="speciality-item" data-aos="fade-left" data-aos-duration="1000">
             <i class="speciality-icon fa-4x fa-solid fa-truck-fast"></i>
             <h2 class="speciality-title">Fast delivery</h2>
             <p class="speciality-description">
@@ -78,7 +78,7 @@
     </div>
 
     <!-- quality food and menu div -->
-    <div class="menu-div">
+    <div class="menu-div" data-aos="fade-up" data-aos-duration="1000">
         <h4 class="speciality-sub-title">Quality Food</h4>
         <h1 class="middle-sec-title">Our Popular Menu</h1>
         <p class="middle-section-description">
@@ -88,6 +88,12 @@
 
     </div>
 </div>
+
+<!-- animation on scroll js  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>

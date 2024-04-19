@@ -46,6 +46,36 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
         Mauris pellentesque pulvinar pellentesque habitant. Mi proin sed libero enim sed faucibus turpis.
     </p>
+
+    <div class="speciality-list">
+        <div class="speciality-item">
+            <i class="speciality-icon fa-4x fa-solid fa-kitchen-set"></i>
+            <h2 class="speciality-title">Best Chef</h2>
+            <p class="speciality-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Doloremque nesciunt aspernatur explicabo deserunt ratione sunt cumque, quia eaque ipsam iusto vel quidem illo sit aliquid ducimus placeat sapiente error. 
+                Eligendi!
+            </p>
+        </div>
+        <div class="speciality-item">
+            <i class="speciality-icon fa-4x fa-solid fa-pizza-slice"></i>
+            <h2 class="speciality-title">Fresh food</h2>
+            <p class="speciality-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Doloremque nesciunt aspernatur explicabo deserunt ratione sunt cumque, quia eaque ipsam iusto vel quidem illo sit aliquid ducimus placeat sapiente error. 
+                Eligendi!
+            </p>
+        </div>
+        <div class="speciality-item">
+            <i class="speciality-icon fa-4x fa-solid fa-truck-fast"></i>
+            <h2 class="speciality-title">Fast delivery</h2>
+            <p class="speciality-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Doloremque nesciunt aspernatur explicabo deserunt ratione sunt cumque, quia eaque ipsam iusto vel quidem illo sit aliquid ducimus placeat sapiente error. 
+                Eligendi!
+            </p>
+        </div>
+    </div>
 </div>
 
 </body>

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- upper section -->
 <div class="upper-section">
     <?php include "header.php"; ?>
 
@@ -33,10 +34,19 @@
         <img class="pizza-img-3" src="../images/pizza-circle-2.png" alt="" srcset="">
         <img class="pizza-img-4" src="../images/pizza-circle-2.png" alt="" srcset="">
      
-
     </div>
 </div>
 
+
+<!-- middle section -->
+<div class="middle-section">
+    <h4 class="our-service-title">Our Service</h4>
+    <h1 class="middle-sec-title">Why Choose Us?</h1>
+    <p class="middle-section-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+        Mauris pellentesque pulvinar pellentesque habitant. Mi proin sed libero enim sed faucibus turpis.
+    </p>
+</div>
 
 </body>
 </html>

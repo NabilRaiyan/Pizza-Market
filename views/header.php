@@ -12,19 +12,19 @@
 
     
 </head>
-<div class="upper-section">
-    <nav class="navbar">
-        <div class="nav-menu-div">
-            <a href="#" class="logo">pizza mart</a>
-            <ul class="nav-menu-list">
-                <li class="nav-menu"><a href="#" class="menu-link">Home</a></li>
-                <li class="nav-menu"><a href="#" class="menu-link">Menu</a></li>
-                <li class="nav-menu"><a href="#" class="menu-link">About Us</a></li>
-                <li class="nav-menu"><a href="#" class="menu-link">Contact Us</a></li>
-                <li class="nav-menu cart-menu"><a href="#" class="cart-link"><i class="cart fa-solid fa-cart-shopping data-fa-transform="right-6"></i></a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+
+<nav class="navbar">
+    <div class="nav-menu-div">
+        <a href="#" class="logo">pizza mart</a>
+        <ul class="nav-menu-list">
+            <li class="nav-menu"><a href="#" class="menu-link">Home</a></li>
+            <li class="nav-menu"><a href="#" class="menu-link">Menu</a></li>
+            <li class="nav-menu"><a href="#" class="menu-link">About Us</a></li>
+            <li class="nav-menu"><a href="#" class="menu-link">Contact Us</a></li>
+            <li class="nav-menu cart-menu"><a href="#" class="cart-link"><i class="cart fa-solid fa-cart-shopping data-fa-transform="right-6"></i></a></li>
+        </ul>
+    </div>
+</nav>
+
 
 <body>

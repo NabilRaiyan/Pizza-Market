@@ -83,11 +83,32 @@ body{
 }
 
 .left-upper-section{
-    display: inline;
+    width: 50vw;
+    float: left;
+    background-color: var(--main-bg-color);
+    margin: 40px 0 20px 0;
+
+    
 }
 
 .right-upper-section{
-    display: inline;
+    width: 50vw;
+    float: right;
+    margin: 40px 0 20px 0;
+}
+
+.upper-title,  .upper-description,  .view-menu-btn, .txt-happy-customer, .customer-img{
+    float: left;
+}
+
+.upper-title{
+    color: #EC662B;
+    font-size: 2rem;
+    font-family: var(--title-text);
+    font-weight: 800;
+}
+.title-word-color-black{
+    color: black;
 }
 
 

@@ -30,6 +30,9 @@
     <div class="right-upper-section">
         <img class="pizza-img-1" src="../images/pizza-circle.png" alt="" srcset="">
         <img class="pizza-img-2" src="../images/pizza-circle-2.png" alt="" srcset="">
+        <img class="pizza-img-3" src="../images/pizza-circle-2.png" alt="" srcset="">
+        <img class="pizza-img-4" src="../images/pizza-circle-2.png" alt="" srcset="">
+     
 
     </div>
 </div>

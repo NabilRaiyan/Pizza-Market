@@ -5,6 +5,7 @@
 <div class="upper-section">
     <?php include "header.php"; ?>
 
+
     <!-- left upper section  -->
 
     <div class="left-upper-section">
@@ -27,7 +28,9 @@
 
     <!-- right upper setion -->
     <div class="right-upper-section">
-        <h1 class="">Piiza part</h1>
+        <img class="pizza-img-1" src="../images/pizza-circle.png" alt="" srcset="">
+        <img class="pizza-img-2" src="../images/pizza-circle-2.png" alt="" srcset="">
+
     </div>
 </div>
 

@@ -40,7 +40,7 @@
 
 <!-- middle section -->
 <div class="middle-section">
-    <h4 class="our-service-title">Our Service</h4>
+    <h4 class="speciality-sub-title">Our Service</h4>
     <h1 class="middle-sec-title">Why Choose Us?</h1>
     <p class="middle-section-description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
@@ -75,6 +75,17 @@
                 Eligendi!
             </p>
         </div>
+    </div>
+
+    <!-- quality food and menu div -->
+    <div class="menu-div">
+        <h4 class="speciality-sub-title">Quality Food</h4>
+        <h1 class="middle-sec-title">Our Popular Menu</h1>
+        <p class="middle-section-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+        Mauris pellentesque pulvinar pellentesque habitant.
+    </p>
+
     </div>
 </div>
 

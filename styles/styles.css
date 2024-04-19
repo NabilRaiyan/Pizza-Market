@@ -1,7 +1,11 @@
+
+/* variable declaration */
+
 :root{
-    --text-color: #AFAFAF;
+    --nav-text-color: #5f5f5f;
     --background-color: #FCF5F5;
     --main-bg-color: #FFFFFF;
+    --logo-color: #EC662B;
 }
 
 
@@ -10,19 +14,49 @@ body{
     margin: 0;
 }
 
+/* navbar styles */
+
 .navbar{
     background-color: var(--background-color);
-    margin: 10px;
+
 }
-a{
+.menu-link{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--nav-text-color);
+    
 }
 
 .nav-menu-list{
     text-decoration:none;
     text-align: right;
-    color: aqua;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    list-style: none;    
+    list-style-type: none; 
+    display: inline; 
+      
+}
+.nav-menu{
+    display: inline;
+    margin: 40px;
+}
+
+.logo{
+    color: var(--logo-color);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    margin: 40px;
+    display: inline;
+}
+
+
+.upper-section{
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+.nav-menu-div{
+    background-color: var(--background-color);
+    margin: 0px 20px;
 }

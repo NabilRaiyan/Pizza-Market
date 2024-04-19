@@ -36,15 +36,16 @@ body{
 }
 .nav-menu{
     display: inline;
-    margin: 40px;
+    margin: 30px;
+    font-family: "Playfair Display", serif;
 }
 
 .logo{
     color: var(--logo-color);
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+    font-weight: 900;
+    font-style: italic;
     text-decoration: none;
     margin: 40px;
     display: inline;

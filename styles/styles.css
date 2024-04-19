@@ -1,0 +1,28 @@
+:root{
+    --text-color: #AFAFAF;
+    --background-color: #FCF5F5;
+    --main-bg-color: #FFFFFF;
+}
+
+
+body{
+    background-color: var(--main-bg-color);
+    margin: 0;
+}
+
+.navbar{
+    background-color: var(--background-color);
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-menu-list{
+    text-decoration:none;
+    text-align: right;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;    
+}

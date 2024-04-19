@@ -4,6 +4,14 @@
     <title>Pizza Market</title>
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
-    <h1 class="title">Hello</h1>
-
+<nav class="navbar">
+    <div class="nav-menu-div">
+        <a href="#">Pizza Mart</a>
+        <ul class="nav-menu-list">
+            <li class="nav-menu"><a href="#">Menu</a></li>
+            <li class="nav-menu"><a href="#">About Us</a></li>
+            <li class="nav-menu"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
 <body>

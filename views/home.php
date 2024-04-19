@@ -57,7 +57,7 @@
                 Eligendi!
             </p>
         </div>
-        <div class="speciality-item">
+        <div class="speciality-item middle-item">
             <i class="speciality-icon fa-4x fa-solid fa-pizza-slice"></i>
             <h2 class="speciality-title">Fresh food</h2>
             <p class="speciality-description">

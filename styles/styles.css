@@ -99,8 +99,11 @@ body{
     border-radius: 8px;
 }
 
-.upper-title,  .upper-description, .view-menu-btn, .txt-happy-customer, .customer-img{
-    float: left;
+.customer-img{
+    margin: 70px 30px 10px 0;
+    width: 30px;
+    position: relative;
+
 }
 
 
@@ -115,7 +118,7 @@ body{
 .upper-description{
     text-align: justify;
     line-height: 1;
-    margin: 0 70px 20px 50px;
+    margin: 0 70px 30px 50px;
     width: 75%;
     color: var(--body-text-color);
     font-family: var(--body-text);
@@ -132,7 +135,7 @@ body{
     font-size: 1rem;
     font-weight: 700;
     padding: 10px;
-    margin: 20px 0 15px 50px;
+    margin: 30px 0 15px 50px;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -145,13 +148,23 @@ body{
     font-family: var(--body-text);
     color: #ED7237;
     font-size: 1rem;
-    margin: 30px 0 10px 30px;
-  
+    margin: 30px 0 10px 50px;
 }
 
-h3{
+.customer-img{
+    width: 20px;
+    margin: 5px 8px 10px 50px;
     float: left;
 }
+
+.review-text{
+    margin: 18px 0 10px 0;
+    font-family: var(--body-text);
+    color: rgb(84, 84, 84);
+    font-size: 0.7rem;
+}
+
+
 
 
 

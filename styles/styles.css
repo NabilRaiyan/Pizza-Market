@@ -6,11 +6,14 @@
     --background-color: #FCF5F5;
     --main-bg-color: #FFFFFF;
     --logo-color: #EC662B;
+    --title-text: "Playfair Display", serif;
+    --nav-menu-text: font-family: "Montserrat", sans-serif;
+    --body-text: font-family: "Montserrat", sans-serif;
 }
 
 
 body{
-    background-color: var(--main-bg-color);
+    background-color: var(--background-color);
     margin: 0;
 }
 
@@ -29,7 +32,7 @@ body{
 .nav-menu-list{
     text-decoration:none;
     text-align: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--nav-menu-text);
     list-style-type: none; 
     display: inline; 
       
@@ -37,27 +40,44 @@ body{
 .nav-menu{
     display: inline;
     margin: 30px;
-    font-family: "Playfair Display", serif;
+    font-family: var(--nav-menu-text);
+    font-size: 1.1rem;
 }
 
 .logo{
     color: var(--logo-color);
-    font-family: "Playfair Display", serif;
+    font-family: var(--title-text);
     font-optical-sizing: auto;
     font-weight: 900;
+    font-size: 1.5rem;
     font-style: italic;
     text-decoration: none;
     margin: 40px;
     display: inline;
 }
 
+.nav-menu-div{
+    background-color: var(--background-color);
+    margin: 30px 30px;
+}
 
+.menu-link:hover{
+    color: #EC662B;
+}
+
+.cart{
+    color: black;
+    display: inline;
+}
+
+.cart-menu{
+    float: right;
+}
+
+
+/* styling upper section */
 .upper-section{
     background-color: var(--background-color);
     margin: 0;
 }
 
-.nav-menu-div{
-    background-color: var(--background-color);
-    margin: 0px 20px;
-}

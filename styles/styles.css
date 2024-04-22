@@ -307,4 +307,7 @@ body{
     padding: 20px;
     text-align: center;
 }
+.card-hr{
+    border: 0.3px solid rgb(255, 200, 99);
+}
 

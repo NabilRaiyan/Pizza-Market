@@ -291,8 +291,8 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 50px 30px;
     padding: 17px;
-    height: 35%;
-    width: 20%;
+    height: 30%;
+    width: 20%
 }
 .rating{
     color: var(--rating-color);

@@ -1,5 +1,5 @@
 
-    <div class="card">
+    <div class="card" data-aos="fade-up" data-aos-duration="1000">
         <img class="card-img" src="../images/pizza-circle-2.png" alt="" srcset="">
         <div class="card-body">
         <span class="rating fa fa-star checked"></span>

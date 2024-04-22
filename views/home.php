@@ -86,6 +86,8 @@
         Mauris pellentesque pulvinar pellentesque habitant.
     </p>
 
+    <?php include "./popularItemCart.php"; ?>
+
     </div>
 </div>
 

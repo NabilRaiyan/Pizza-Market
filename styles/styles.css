@@ -9,6 +9,7 @@
     --nav-menu-text: font-family: "Montserrat", sans-serif;
     --body-text: font-family: "Montserrat", sans-serif;
     --body-text-color: rgb(133, 133, 133);
+    --rating-color: #ED7239;
 }
 
 
@@ -219,7 +220,7 @@ body{
     margin: 70px auto 20px auto;
     text-align: center;
     font-family: var(--body-text);
-    color: var(--body-text-color);
+    color: orange;
     font-size: 1.2rem;
 }
 
@@ -282,4 +283,28 @@ body{
 }
 
 
+/* popular menu style */
+
+.card{
+    background-color: #FCF5F5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    height: 40%;
+    width: 20%;
+}
+.rating{
+    color: var(--rating-color);
+}
+.card-img{
+    width: 80%;
+    height: 80%;
+    margin: 5px auto;
+    display: block;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center;
+}
 

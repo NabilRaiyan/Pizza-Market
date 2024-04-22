@@ -86,6 +86,7 @@
         Mauris pellentesque pulvinar pellentesque habitant.
     </p>
 
+    <!-- best seller menu card -->
     <div class="best-seller-menu">
         <?php
             for ($i = 0; $i <= 3; $i++ ){

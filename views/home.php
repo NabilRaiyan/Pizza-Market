@@ -88,13 +88,12 @@
 
     <div class="best-seller-menu">
         <?php
-            for ($i = 0; $i <= 2; $i++ ){
+            for ($i = 0; $i <= 3; $i++ ){
                 include "./popularItemCart.php"; 
             }
         ?>
     </div>
     
-
     </div>
 </div>
 

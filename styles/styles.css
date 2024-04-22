@@ -289,12 +289,10 @@ body{
 .card{
     background-color: #FCF5F5;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 50px;
+    margin: 50px 30px;
     padding: 17px;
-    height: 40%;
+    height: 35%;
     width: 20%;
-    display: inline-block;
-    
 }
 .rating{
     color: var(--rating-color);
@@ -343,8 +341,7 @@ body{
 
 .best-seller-menu{
     margin: 20px auto;
-    display: flexbox;
-    align-items: flex-start;
+    display: flex;
     justify-content: space-between;
 
 }

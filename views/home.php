@@ -93,8 +93,7 @@
                 include "./popularItemCart.php"; 
             }
         ?>
-    </div>
-    
+    </div>    
     </div>
 </div>
 

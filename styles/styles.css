@@ -10,6 +10,7 @@
     --body-text: font-family: "Montserrat", sans-serif;
     --body-text-color: rgb(133, 133, 133);
     --rating-color: #ED7239;
+    --btn-color: #EB662B;
 }
 
 
@@ -311,3 +312,29 @@ body{
     border: 0.3px solid rgb(255, 200, 99);
 }
 
+.card-title{
+    color: var(--nav-text-color);
+    font-family: var(--title-text);
+}
+.card-subtitle{
+    color: var(--rating-color);
+    font-family: var(--body-text-);
+
+}
+
+.show-menu-btn{
+    background-color: var(--btn-color);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.show-menu-btn:hover{
+    background-color: #ff7d3c;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    
+}

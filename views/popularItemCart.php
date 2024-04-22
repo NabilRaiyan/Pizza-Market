@@ -8,12 +8,14 @@
         <span class="rating fa fa-star"></span>
         <span class="rating fa fa-star"></span>
         <hr class="card-hr">
-            <h2 class="cart-title">
+            <h2 class="card-title">
                 Peparoni Pizza
             </h2>
-            <h5 class="cart-subtitle">
-                
+            <h5 class="card-subtitle">
+                with extra cheese
             </h5>
+
+            <a class="show-menu-btn" href="#">show in menu</a>
 
         </div>
     </div>

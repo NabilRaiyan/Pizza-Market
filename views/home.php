@@ -86,7 +86,14 @@
         Mauris pellentesque pulvinar pellentesque habitant.
     </p>
 
-    <?php include "./popularItemCart.php"; ?>
+    <div class="best-seller-menu">
+        <?php
+            for ($i = 0; $i <= 2; $i++ ){
+                include "./popularItemCart.php"; 
+            }
+        ?>
+    </div>
+    
 
     </div>
 </div>

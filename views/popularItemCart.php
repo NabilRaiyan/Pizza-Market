@@ -15,7 +15,7 @@
                 with extra cheese
             </h5>
 
-            <a class="show-menu-btn" href="#">show in menu</a>
+            <a class="show-menu-btn" href="#">order now</a>
 
         </div>
     </div>

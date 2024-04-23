@@ -135,6 +135,9 @@ body{
     color: black;
 }
 
+/* view menu style */
+
+
 .view-menu-btn{
     background-color: #EC662B;
     color: white;
@@ -150,6 +153,7 @@ body{
 .view-menu-btn:hover{
     background-color: #ff9864;
 }
+
 
 /* customer review styles */
 

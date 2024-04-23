@@ -151,6 +151,8 @@ body{
     background-color: #ff9864;
 }
 
+/* customer review styles */
+
 .txt-happy-customer{
     font-family: var(--body-text);
     color: #ED7237;
